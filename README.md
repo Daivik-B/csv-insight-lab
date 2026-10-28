@@ -36,7 +36,7 @@ I deliberately did **not** add machine learning or AI features. The goal of v0.1
 You need Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/GITHUB_USERNAME/csv-insight-lab.git
+git clone https://github.com/Daivik-B/csv-insight-lab.git
 cd csv-insight-lab
 python -m venv .venv
 # Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
