@@ -1,0 +1,124 @@
+order_id,date,counter,item,category,quantity,unit_price_inr,total_inr,payment,rating
+35,2026-09-01,Main Canteen,Veg Puff,Snack,1,25,25,UPI,3
+55,2026-09-02,Main Canteen,Paneer Roll,Snack,2,70,140,UPI,3
+101,2026-09-02,Juice Bar,Cold Coffee,Beverage,1,50,50,UPI,4
+13,2026-09-03,Food Court,Cold Coffee,Beverage,1,50,50,UPI,5
+24,2026-09-03,Main Canteen,Veg Thali,Meal,1,90,90,UPI,
+68,2026-09-03,Main Canteen,Lime Soda,Beverage,1,30,30,UPI,4
+106,2026-09-03,Main Canteen,Veg Thali,Meal,1,90,90,Card,
+107,2026-09-03,Juice Bar,Lime Soda,Beverage,1,30,30,Cash,5
+85,2026-09-04,Main Canteen,Masala Dosa,Meal,1,60,60,UPI,3
+56,2026-09-05,Food Court,Masala Dosa,Meal,2,60,120,Card,5
+98,2026-09-05,Main Canteen,Masala Dosa,Meal,2,60,120,UPI,4
+109,2026-09-05,Food Court,Veg Thali,Meal,1,90,90,UPI,3
+110,2026-09-05,Main Canteen,Lime Soda,Beverage,3,30,90,Card,4
+84,2026-09-06,Juice Bar,Filter Coffee,Beverage,2,25,50,UPI,4
+97,2026-09-07,Juice Bar,Filter Coffee,Beverage,1,25,25,UPI,
+40,2026-09-08,Main Canteen,Veg Thali,Meal,1,90,90,,5
+18,2026-09-09,Food Court,Lime Soda,Beverage,2,30,60,Card,5
+110,2026-09-05,Main Canteen,Lime Soda,Beverage,3,30,90,Card,4
+44,2026-09-09,Main Canteen,Veg Puff,Snack,3,25,75,Card,
+81,2026-09-09,Main Canteen,Paneer Roll,Snack,2,70,140,UPI,4
+64,2026-09-10,Main Canteen,Veg Puff,Snack,1,25,25,Card,5
+120,2026-09-11,Food Court,Lime Soda,Beverage,2,30,60,UPI,
+14,2026-09-12,Food Court,Veg Puff,Snack,1,25,25,Cash,4
+42,2026-09-12,Main Canteen,Samosa,Snack,2,20,40,Card,5
+61,2026-09-12,Juice Bar,Lime Soda,Beverage,1,30,30,UPI,4
+15,2026-09-13,Food Court,Lime Soda,Beverage,1,30,30,UPI,
+89,2026-09-14,Main Canteen,Lime Soda,Beverage,1,30,30,UPI,5
+90,2026-09-14,Food Court,Paneer Roll,Snack,1,70,70,Cash,
+29,2026-09-15,Main Canteen,Veg Thali,Meal,2,90,180,Cash,5
+43,2026-09-15,Main Canteen,Veg Puff,Snack,2,25,50,,5
+46,2026-09-15,Main Canteen,Lime Soda,Beverage,1,30,30,Cash,4
+60,2026-09-15,Main Canteen,Veg Puff,Snack,2,25,50,Card,4
+70,2026-09-15,Food Court,Veg Thali,Meal,1,90,90,UPI,3
+100,2026-09-16,Food Court,Cold Coffee,Beverage,1,50,50,UPI,5
+105,2026-09-16,Juice Bar,Cold Coffee,Beverage,3,50,150,UPI,4
+32,2026-09-17,Main Canteen,Paneer Roll,Snack,1,70,70,UPI,
+50,2026-09-17,Juice Bar,Filter Coffee,Beverage,1,25,25,UPI,5
+67,2026-09-17,Main Canteen,Veg Puff,Snack,1,25,25,Card,5
+17,2026-09-18,Food Court,Masala Dosa,Meal,2,60,120,UPI,5
+31,2026-09-18,Main Canteen,Veg Thali,Meal,2,90,180,Card,5
+47,2026-09-18,Food Court,Samosa,Snack,1,20,20,UPI,5
+53,2026-09-19,Food Court,Samosa,Snack,1,20,20,UPI,
+95,2026-09-19,Main Canteen,Veg Thali,Meal,2,90,180,UPI,
+22,2026-09-20,Juice Bar,Lime Soda,Beverage,1,30,30,Cash,5
+28,2026-09-21,Food Court,Veg Puff,Snack,1,25,25,Card,4
+34,2026-09-21,Main Canteen,Veg Thali,Meal,1,90,90,UPI,
+39,2026-09-21,Main Canteen,Veg Puff,Snack,2,25,50,UPI,3
+57,2026-09-21,Food Court,Samosa,Snack,1,20,20,UPI,5
+115,2026-09-21,Main Canteen,Paneer Roll,Snack,2,70,140,UPI,
+4,2026-09-23,Main Canteen,Cold Coffee,Beverage,1,50,50,UPI,4
+21,2026-09-23,Food Court,Veg Thali,Meal,1,90,90,UPI,
+30,2026-09-23,Main Canteen,Paneer Roll,Snack,3,70,210,Card,4
+58,2026-09-23,Food Court,Veg Puff,Snack,2,25,50,UPI,4
+77,2026-09-24,Juice Bar,Filter Coffee,Beverage,2,25,50,UPI,5
+88,2026-09-24,Food Court,Cold Coffee,Beverage,1,50,50,Cash,5
+27,2026-09-25,Juice Bar,Cold Coffee,Beverage,2,50,100,UPI,5
+96,2026-09-25,Food Court,Lime Soda,Beverage,1,30,30,Card,
+112,2026-09-25,Main Canteen,Masala Dosa,Meal,1,60,60,Card,4
+6,2026-09-26,Food Court,Lime Soda,Beverage,1,30,30,Cash,5
+51,2026-09-26,Food Court,Veg Puff,Snack,1,25,25,Card,4
+83,2026-09-27,Food Court,Paneer Roll,Snack,2,70,140,UPI,5
+38,2026-09-28,Main Canteen,Masala Dosa,Meal,2,60,120,UPI,3
+112,2026-09-25,Main Canteen,Masala Dosa,Meal,1,60,60,Card,4
+3,2026-09-29,Main Canteen,Veg Puff,Snack,2,25,50,Cash,4
+36,2026-09-30,Main Canteen,Filter Coffee,Beverage,1,25,25,UPI,5
+59,2026-09-30,Food Court,Filter Coffee,Beverage,2,25,50,UPI,4
+93,2026-09-30,Food Court,Samosa,Snack,3,20,60,Card,
+104,2026-09-30,Food Court,Veg Thali,Meal,1,90,90,UPI,5
+9,2026-10-01,Main Canteen,Cold Coffee,Beverage,1,50,50,Cash,5
+74,2026-10-01,Food Court,Lime Soda,Beverage,1,30,30,Cash,4
+12,2026-10-02,Juice Bar,Lime Soda,Beverage,2,30,60,Cash,5
+87,2026-10-02,Main Canteen,Samosa,Snack,1,20,20,Card,5
+1,2026-10-03,Main Canteen,Veg Thali,Meal,1,90,90,Card,5
+72,2026-10-03,Main Canteen,Paneer Roll,Snack,1,70,70,Cash,4
+113,2026-10-03,Food Court,Paneer Roll,Snack,1,70,70,UPI,3
+7,2026-10-04,Juice Bar,Lime Soda,Beverage,1,30,30,Cash,3
+20,2026-10-04,Food Court,Cold Coffee,Beverage,2,50,100,,
+23,2026-10-04,Main Canteen,Paneer Roll,Snack,1,70,70,UPI,4
+26,2026-10-04,Main Canteen,Samosa,Snack,2,20,40,UPI,5
+45,2026-10-04,Food Court,Veg Puff,Snack,1,25,25,UPI,4
+102,2026-10-04,Food Court,Veg Puff,Snack,1,25,25,Cash,5
+82,2026-10-05,Food Court,Paneer Roll,Snack,1,70,70,UPI,3
+111,2026-10-05,Juice Bar,Lime Soda,Beverage,2,30,60,Cash,
+2,2026-10-08,Juice Bar,Lime Soda,Beverage,2,30,60,,
+41,2026-10-08,Main Canteen,Veg Puff,Snack,1,25,25,Cash,5
+62,2026-10-08,Juice Bar,Cold Coffee,Beverage,2,50,100,Card,4
+75,2026-10-08,Juice Bar,Cold Coffee,Beverage,1,50,50,UPI,5
+117,2026-10-08,Main Canteen,Veg Thali,Meal,2,90,180,UPI,
+73,2026-10-09,Juice Bar,Filter Coffee,Beverage,1,25,25,UPI,3
+78,2026-10-09,Main Canteen,Cold Coffee,Beverage,2,50,100,UPI,5
+118,2026-10-09,Main Canteen,Samosa,Snack,3,20,60,Card,
+69,2026-10-10,Main Canteen,Lime Soda,Beverage,1,30,30,UPI,3
+76,2026-10-10,Main Canteen,Veg Puff,Snack,3,25,75,Card,5
+91,2026-10-11,Food Court,Paneer Roll,Snack,2,70,140,UPI,5
+5,2026-10-12,Food Court,Veg Puff,Snack,1,25,25,,4
+66,2026-10-12,Food Court,Samosa,Snack,1,20,20,Cash,3
+80,2026-10-12,Juice Bar,Filter Coffee,Beverage,1,25,25,Card,5
+10,2026-10-13,Food Court,Veg Puff,Snack,1,25,25,Card,5
+19,2026-10-13,Main Canteen,Veg Puff,Snack,1,25,25,Card,5
+37,2026-10-14,Food Court,Lime Soda,Beverage,1,30,30,UPI,4
+48,2026-10-14,Main Canteen,Lime Soda,Beverage,2,30,60,Cash,3
+71,2026-10-14,Main Canteen,Cold Coffee,Beverage,2,50,100,UPI,3
+94,2026-10-14,Juice Bar,Filter Coffee,Beverage,2,25,50,Card,5
+19,2026-10-13,Main Canteen,Veg Puff,Snack,1,25,25,Card,5
+116,2026-10-15,Juice Bar,Cold Coffee,Beverage,1,50,50,Card,4
+65,2026-10-16,Juice Bar,Cold Coffee,Beverage,1,50,50,UPI,5
+99,2026-10-16,Main Canteen,Lime Soda,Beverage,1,30,30,Card,4
+33,2026-10-17,Main Canteen,Masala Dosa,Meal,2,60,120,UPI,4
+52,2026-10-17,Food Court,Veg Thali,Meal,1,90,90,UPI,5
+54,2026-10-18,Food Court,Cold Coffee,Beverage,1,50,50,UPI,5
+119,2026-10-18,Main Canteen,Masala Dosa,Meal,1,60,60,Card,
+25,2026-10-19,Main Canteen,Masala Dosa,Meal,1,60,60,UPI,
+114,2026-10-19,Juice Bar,Filter Coffee,Beverage,1,25,25,Card,5
+79,2026-10-21,Food Court,Paneer Roll,Snack,1,70,70,Cash,
+8,2026-10-23,Main Canteen,Samosa,Snack,2,20,40,Card,3
+11,2026-10-24,Juice Bar,Cold Coffee,Beverage,1,50,50,,5
+16,2026-10-24,Juice Bar,Lime Soda,Beverage,1,30,30,UPI,
+49,2026-10-24,Food Court,Filter Coffee,Beverage,2,25,50,UPI,
+63,2026-10-24,Juice Bar,Cold Coffee,Beverage,1,50,50,Cash,5
+92,2026-10-24,Juice Bar,Lime Soda,Beverage,2,30,60,UPI,5
+108,2026-10-25,Main Canteen,Masala Dosa,Meal,3,60,180,Cash,
+86,2026-10-26,Main Canteen,Paneer Roll,Snack,1,70,70,Cash,4
+103,2026-10-26,Main Canteen,Masala Dosa,Meal,1,60,60,UPI,4
