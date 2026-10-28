@@ -1,0 +1,14 @@
+[project]
+name = "csv-insight-lab"
+version = "0.1.0"
+description = "A small command-line tool for a first look at a CSV dataset."
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "matplotlib>=3.7"]
+
+[project.scripts]
+csv-insight = "csv_insight_lab.cli:main"
+
+[tool.pytest.ini_options]
+# Lets `pytest` (not only `python -m pytest`) find the csv_insight_lab package.
+pythonpath = ["."]
+testpaths = ["tests"]

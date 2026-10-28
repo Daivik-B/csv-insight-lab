@@ -1,0 +1,19 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Reports you generate locally (the committed example lives in docs/)
+reports/
+*.report.html
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
