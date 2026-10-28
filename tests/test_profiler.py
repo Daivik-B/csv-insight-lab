@@ -89,3 +89,15 @@ def test_header_only_dataframe():
     assert profile.rows == 0 and profile.columns == 2
     assert profile.missing_pct == 0.0  # no division-by-zero crash
     assert all(c.kind == "empty" for c in profile.column_profiles)
+
+
+def test_ids_are_spotted_even_with_a_few_duplicate_rows():
+    ids = pd.Series(list(range(1, 41)) + [7], name="order_id")  # one repeated row
+    profile = profile_dataframe(ids.to_frame()).column_profiles[0]
+    assert any("ID column" in note for note in profile.notes)
+
+
+def test_decimal_measurements_are_not_called_ids():
+    readings = pd.Series([20.1 + i * 0.37 for i in range(40)], name="temperature")
+    profile = profile_dataframe(readings.to_frame()).column_profiles[0]
+    assert not any("ID column" in note for note in profile.notes)

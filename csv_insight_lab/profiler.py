@@ -90,6 +90,20 @@ def classify_column(series: pd.Series, max_categories: int = DEFAULT_MAX_CATEGOR
     return "text"
 
 
+def looks_like_id(series: pd.Series, kind: str) -> bool:
+    """IDs are whole numbers or text where (almost) every value is different.
+
+    Decimal numbers are excluded on purpose: measurements such as 23.71 and
+    23.74 are usually all different too, but they are data, not IDs.
+    The 95% threshold tolerates a few duplicated rows in the file.
+    """
+    non_null = series.dropna()
+    if len(non_null) < 2:
+        return False
+    is_candidate = kind == "text" or (kind == "numeric" and ptypes.is_integer_dtype(series))
+    return is_candidate and non_null.nunique() / len(non_null) >= 0.95
+
+
 def summarise_numbers(series: pd.Series) -> dict[str, float]:
     stats = series.describe()  # count, mean, std, min, 25%, 50%, 75%, max
     names = {"count": "count", "mean": "mean", "std": "std", "min": "min",
@@ -126,8 +140,12 @@ def profile_column(series: pd.Series, top: int = 5,
         profile.notes.append("Every value is missing.")
     elif profile.unique == 1:
         profile.notes.append("Only one distinct value, so this column tells you little.")
-    elif profile.unique == len(non_null) and len(non_null) > 1 and kind in ("numeric", "text"):
-        profile.notes.append("Every value is different. This may be an ID column.")
+    elif looks_like_id(series, kind):
+        if profile.unique == len(non_null):
+            profile.notes.append("Every value is different. This may be an ID column.")
+        else:
+            profile.notes.append(f"Almost every value is different ({profile.unique} of "
+                                 f"{len(non_null)}). This may be an ID column.")
     if kind != "empty" and profile.missing_pct >= 20:
         profile.notes.append(f"{profile.missing_pct}% of values are missing.")
     return profile
