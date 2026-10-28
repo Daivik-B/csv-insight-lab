@@ -127,7 +127,7 @@ Two bugs were found by **looking at the generated report**, not by the tests: th
 
 ## How this was built
 
-I built this with an AI coding assistant (Claude). My part was choosing the scope, reviewing each module, running the program and the tests, and checking the output for mistakes. I learned that a confident-looking generated report can still be wrong, which is how the two bugs above were found. The commit history shows the order in which the project was built.
+I built this with an AI coding assistant (Claude). My part was choosing the scope, reviewing the modules, and running the program and the tests myself. The two bugs above are a good reminder of why that review matters: generated code and a confident-looking report can still be wrong. The commit history shows the order in which the project was built.
 
 ## Possible improvements
 
