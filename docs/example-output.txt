@@ -1,0 +1,61 @@
+CSV Insight Lab - report for examples/sample_canteen_orders.csv
+===============================================================
+
+OVERVIEW
+  Rows            123
+  Columns         10
+  Missing cells   32 of 1,230 (2.6%)
+  Duplicate rows  3  (data rows 18, 63, 104)
+
+COLUMNS
+  #   Column          Kind         Type     Missing     Unique
+  --  --------------  -----------  -------  ----------  ------
+  1   order_id        numeric      int64    0 (0%)      120
+  2   date            datetime     str      0 (0%)      51
+  3   counter         categorical  str      0 (0%)      3
+  4   item            categorical  str      0 (0%)      8
+  5   category        categorical  str      0 (0%)      3
+  6   quantity        numeric      int64    0 (0%)      3
+  7   unit_price_inr  numeric      int64    0 (0%)      7
+  8   total_inr       numeric      int64    0 (0%)      15
+  9   payment         categorical  str      6 (4.9%)    3
+  10  rating          numeric      float64  26 (21.1%)  3
+
+NUMERIC COLUMNS
+  Column          Count  Mean   Std    Min  Median  Max
+  --------------  -----  -----  -----  ---  ------  ---
+  order_id        123    60.98  35.16  1    61      120
+  quantity        123    1.46   0.63   1    1       3
+  unit_price_inr  123    45.16  22.96  20   30      90
+  total_inr       123    65     42.25  20   50      210
+  rating          97     4.33   0.75   3    4       5
+
+MOST COMMON VALUES
+  counter (3 distinct)
+    Main Canteen             57   46.3%
+    Food Court               40   32.5%
+    Juice Bar                26   21.1%
+  item (8 distinct)
+    Lime Soda                24   19.5%
+    Veg Puff                 20   16.3%
+    Cold Coffee              18   14.6%
+    Paneer Roll              14   11.4%
+    Veg Thali                14   11.4%
+  category (3 distinct)
+    Beverage                 53   43.1%
+    Snack                    44   35.8%
+    Meal                     26   21.1%
+  payment (3 distinct)
+    UPI                      61   49.6%
+    Card                     33   26.8%
+    Cash                     23   18.7%
+
+DATES
+  date: 2026-09-01 to 2026-10-26
+
+WORTH A SECOND LOOK
+  - 3 row(s) are exact copies of an earlier row.
+  - order_id: Almost every value is different (120 of 123). This may be an ID column.
+  - rating: 21.1% of values are missing.
+
+HTML report saved to docs/example-report.html
